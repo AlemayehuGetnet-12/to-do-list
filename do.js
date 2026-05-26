@@ -1,6 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", function () {
-
     const input = document.querySelector(".input");
     const button = document.querySelector(".button");
     const taskList = document.getElementById("taskList");
@@ -42,5 +40,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
         input.value = "";
     }
-
-});
